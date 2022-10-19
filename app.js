@@ -1,4 +1,5 @@
 const express= require('express');
+const router = require('./routers/router');
 const app=express();
 app.use(express.static('public'))
 const userRouter=require('./routers/router');
@@ -6,7 +7,7 @@ const userRouter=require('./routers/router');
 
 app.set("view engine","ejs")    
 
-app.use(userRouter)
+app.use(router)
 
 
 

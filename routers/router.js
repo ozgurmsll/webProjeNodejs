@@ -23,7 +23,7 @@ router.use("/products",async(req,res)=>{
         urunler:products
     })
     } catch (error) {
-        console.log(err);
+        console.log(error);
     }
 
 
