@@ -22,8 +22,16 @@
     margin-right: 10px;
     margin-bottom: 40px;
     border-radius: 10px;
+    transition: all .5s ease-in-out;
+
     
     
+}
+.card2:hover{
+   
+    transform: scale(1.1);
+    margin-left: 20px;
+
 }
 .foto{
     width: 200px;
@@ -31,10 +39,13 @@
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
 }
+.foto:hover{
+    box-shadow: rgb(35, 33, 33) 0px 54px 55px, rgb(255, 255, 255) 0px -12px 30px, rgba(252, 249, 249, 0.971) 0px 4px 6px, rgb(255, 252, 252) 0px 12px 13px, rgba(255, 254, 254, 0.857) 0px -3px 5px;
+}
 #link2{
     display:flex;
     border: 1px solid;
-    width: 198px;
+    width: 200px;
     color:white;
     justify-content: center;
     background-color:blue;
